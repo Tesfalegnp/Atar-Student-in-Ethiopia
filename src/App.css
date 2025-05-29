@@ -89,3 +89,117 @@ body {
   background-color: #f8f9fa;
   border-radius: .3rem;
 }
+/* Hover effects */
+.hover-primary {
+  transition: all 0.3s ease;
+}
+.hover-primary:hover {
+  color: #4e9af1 !important;
+  transform: translateY(-1px);
+}
+
+/* Social icons */
+.social-icons a {
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+.social-icons a:hover {
+  color: #4e9af1 !important;
+  transform: translateY(-2px);
+}
+
+/* Footer animation base */
+footer {
+  background-size: 200% 200%;
+}
+
+/* Hover effects */
+.hover-primary {
+  transition: all 0.3s ease;
+}
+.hover-primary:hover {
+  color: #4e9af1 !important;
+  transform: translateY(-1px);
+}
+
+/* Social icons animation */
+.social-icons a {
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+.social-icons a:hover {
+  color: #4e9af1 !important;
+  transform: translateY(-2px) scale(1.1);
+}
+
+/* Smooth transitions for all footer links */
+footer a {
+  transition: color 0.3s ease;
+}
+
+
+/* Welcome Page Specific Styles */
+.welcome-page {
+  overflow-x: hidden;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.stats-bar {
+  margin-top: -1px; /* Connects with hero section */
+}
+
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.step-number {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  background: #4e9af1;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.testimonial-carousel {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonial-carousel .carousel-control-prev,
+.testimonial-carousel .carousel-control-next {
+  width: 40px;
+  height: 40px;
+  background: #4e9af1;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+  }
+  
+  .stats-bar .col-sm-6 {
+    margin-bottom: 15px;
+  }
+}
+
+
+
