@@ -1,0 +1,91 @@
+/* Add these styles to your App.css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+body {
+  background-color: #f8f9fa;
+}
+
+.dark-theme {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.dark-theme .card,
+.dark-theme .list-group-item,
+.dark-theme .accordion-item {
+  background-color: #343a40;
+  color: #f8f9fa;
+  border-color: #495057;
+}
+
+.dark-theme .card-header {
+  background-color: #495057;
+  border-color: #6c757d;
+}
+
+.dark-theme .text-muted {
+  color: #adb5bd !important;
+}
+
+.dark-theme .form-control,
+.dark-theme .form-select {
+  background-color: #495057;
+  color: #f8f9fa;
+  border-color: #6c757d;
+}
+
+.dark-theme .form-control:focus,
+.dark-theme .form-select:focus {
+  background-color: #495057;
+  color: #f8f9fa;
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.dark-theme .accordion-button {
+  background-color: #495057;
+  color: #f8f9fa;
+}
+
+.dark-theme .accordion-button:not(.collapsed) {
+  background-color: #495057;
+  color: #f8f9fa;
+}
+
+.dark-theme .accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.dark-theme ::-webkit-scrollbar-track {
+  background: #343a40;
+}
+
+.dark-theme ::-webkit-scrollbar-thumb {
+  background: #6c757d;
+}
+
+.dark-theme ::-webkit-scrollbar-thumb:hover {
+  background: #adb5bd;
+}
+.welcome-card {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: .3rem;
+}
