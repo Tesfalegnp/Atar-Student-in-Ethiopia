@@ -1,5 +1,3 @@
-
-```markdown
 # Atar Student Association Platform
 
 ![Atar Student Association Banner](https://via.placeholder.com/1200x400?text=Atar+Student+Association) <!-- Replace with actual banner image -->
