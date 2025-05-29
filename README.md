@@ -1,6 +1,8 @@
 # Atar Student Association Platform
 
-![Atar Student Association Banner](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReCEfc6ZwI062nr5NndZxA8cmW5LyqvNrDBw&s)
+<p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReCEfc6ZwI062nr5NndZxA8cmW5LyqvNrDBw&s" alt="Atar Student Association Banner" />
+</p>
 
 A comprehensive platform for student collaboration, resource sharing, and academic support within the Atar community.
 
