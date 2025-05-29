@@ -231,7 +231,7 @@ const Navigation = () => {
                   </NavDropdown.Item>
                 </LinkContainer>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="https://university-portal.example.com" className="hover-primary">
+                <NavDropdown.Item href="https://portal.aau.edu.et/" className="hover-primary">
                   <FaGraduationCap className="me-2" /> University Portal
                 </NavDropdown.Item>
               </NavDropdown>
