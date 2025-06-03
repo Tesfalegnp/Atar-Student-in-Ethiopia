@@ -57,13 +57,12 @@ const AcademicPage = () => {
     "Kotebe Metropolitan University",
     "Mekdela Amba University",
     "Metu University",
-    "Mizan University",
+    "Mizan Tepi University",
     "Nekemte University",
     "Shambu University",
     "Shashemene University",
     "Wolkite University"
   ];
-
   useEffect(() => {
     setUniversities(ethiopianUniversities.map((uni, index) => ({
       id: index + 1,
